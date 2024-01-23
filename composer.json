@@ -1,0 +1,27 @@
+{
+    "name": "melvinachterhuis/disable-snippets-shopware6-plugin",
+    "description": "Disable snippets (dev env)",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melvin Achterhuis"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Melv\\DisableSnippets\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Melv\\DisableSnippets\\MelvDisableSnippets",
+        "label": {
+            "de-DE": "Disable snippets",
+            "en-GB": "Disable snippets"
+        }
+    }
+}
